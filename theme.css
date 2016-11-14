@@ -1,0 +1,22 @@
+@namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
+
+/* Hide bookmarks toolbar on websites but not on new tab and other built-in sites. */
+#main-window:not([stylish-url^="about:"]):not([stylish-url^="chrome:"]) #PersonalToolbar
+{
+  display : none !important;
+}
+
+/* Color tweaks */
+#nav-bar {
+  background-color: #EBEBEA !important;
+}
+
+menubar, toolbar, toolbox, panel > *{
+  background-color: #F9F9F9 !important;
+}
+
+/* Decorate selected tab */
+.tabbrowser-tab[visuallyselected=true] {
+  font-weight: bold;
+  text-decoration: underline;
+}
