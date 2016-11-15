@@ -1,6 +1,10 @@
 # Chromefox
 
-Simple Firefox theme inspired by google chrome.
+Simple Firefox theme inspired by Google Chrome.
+
+## Features
+1. Changes color scheme to be similar to Chrome.
+2. Collapse bookmarks toolbar on all pages except on new tab and Problem loading page pages.
 
 ![Screenshot](https://a.pomf.cat/wtdolq.png)
 
