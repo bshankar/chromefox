@@ -1,9 +1,8 @@
 @namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
 
 /* Hide bookmarks toolbar on websites but not on new tab and other built-in sites. */
-#main-window:not([stylish-url^="about:"]):not([stylish-url^="chrome:"]) #PersonalToolbar
-{
-  display : none !important;
+#main-window:not([title^="Mozilla Firefox"]):not([title^="New Tab - Mozilla Firefox"]):not([title^="Problem loading page - Mozilla Firefox"]) #PersonalToolbar{ 
+            visibility:collapse 
 }
 
 /* Color tweaks */
