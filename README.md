@@ -10,4 +10,4 @@ Simple Firefox theme inspired by Google Chrome.
 
 ## Installation
 
-Put the [userChrome.css](http://kb.mozillazine.org/index.php?title=UserChrome.css&printable=yes) in ~/.mozilla/firefox/<profile dir>/chrome/
+Put the [userChrome.css](http://kb.mozillazine.org/index.php?title=UserChrome.css&printable=yes) in `~/.mozilla/firefox/<profile dir>/chrome/`
