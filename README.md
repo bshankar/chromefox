@@ -6,4 +6,4 @@ Simple Firefox theme inspired by google chrome.
 
 ## Installation
 
-Can be installed with [stylish](https://addons.mozilla.org/en-US/firefox/addon/stylish/?src=search) or by putting it in [userChrome.css](http://kb.mozillazine.org/index.php?title=UserChrome.css&printable=yes).
+Put the [userChrome.css](http://kb.mozillazine.org/index.php?title=UserChrome.css&printable=yes) in ~/.mozilla/firefox/<profile dir>/chrome/
